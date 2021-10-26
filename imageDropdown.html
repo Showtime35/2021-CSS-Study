@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Image Dropdowns</title>
+  <style>{
+    .dropdown;
+    positon: realtive;
+    display: inline-block;
+  }
+    .dropdownContent{
+    display:none;
+    position:aboslute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index:1
+  }
+  .dropdown:hover .dropdownContent{
+    display: block
+  }
+  .desc{
+    padding: 15px;
+    text-align: left-center;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="dropdown">
+    <img src="pickums/shrek.jpg" alt="Shrek" width="150" height="50">
+    <div class="dropdownContent">
+      <img src="pickums/shrek.jpg" alt="Shrek" width="300" height="150">
+      <div class="desc"> Love</div>
+    </div>
+  </div>
+</body>
+
+</html>
