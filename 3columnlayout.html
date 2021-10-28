@@ -1,10 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>3 column website</title>
+    <style media="screen">
+      body{
+        background-color: #2C2F33;
+        margin: 0;
+	      padding: 0;
+      }
+      #row{
+        width: 980px;
+	      background: silver;
+	      margin: 0 auto;
+      }
+      #header{
+        font-size: 56px;
+        background: blue;
+        text-align: center;
+      }
+      #left{
+        width: 33%;
+        height: 560px;
+	      float: left;
+        background: green;
+      }
+      #center{
+        width: 33%;
+        height: 560px;
+        background: pink;
+        float: left;
+      }
+      #right{
+        width: 33%;
+        height: 560px;
+        background: purple;
+        float: left;
+      }
+      #footer{
+        clear: both;
+        font-size: 56px;
+        background: yellow;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+  <div id="row">
 
-</body>
+    <div id="header">Header</div>
+    <hr>
+    <div id="left">content</div>
+    <div id="center">middle</div>
+    <div id="right">sidebar</div>
+    <hr>
+    <div id="footer">footer</div>
+
+      </div>
+  </body>
 </html>
